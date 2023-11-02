@@ -1,3 +1,10 @@
+/*
+ * First you will need to run tihs command:
+ * `https://discord.com/api/oauth2/authorize?client_id=1168342125050605618&permissions=0&scope=bot%20applications.comman
+ds`
+ * and selecr your relevant guild (make sure this reflects in `config.json`)
+*/
+
 const { REST, Routes } = require('discord.js');
 const { clientId, guildId, token } = require('./config.json');
 const fs = require('node:fs');
